@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .advcont {
+            display: flex;
+            justify-items: flex-start;
+            margin-top: 20px;
+            padding-left: 15px;
+        }
+
+        .advhead {
+            color: #d93025;
+            font-size: 20px;
+            padding-left: 50px;
+            height: 60px;
+            padding-top: 35px;
+            font-family: arial, sans-serif;
+        }
+
+        hr {
+            background-color: #edeff3;
+            border-color: #edeff3;
+        }
+
+        .col1 {
+            display: flex;
+            justify-content: flex-start;
+            padding-left: 20px;
+            margin-top: 40px;
+        }
+
+        .col2 {
+            display: flex;
+            justify-content: flex-start;
+            padding-left: 20px;
+            margin-top: 20px;
+            font-family: arial, sans-serif;
+        }
+
+        input:focus {
+            box-shadow: inset 0 1px 2px rgb(0 0 0 / 30%);
+            border: 1px solid #4d90fe;
+            outline: none;
+        }
+
+        input {
+            border: 1px solid #d9d9d9
+        }
+
+        button {
+            background-color: #4d90fe;
+            color: white;
+            height: 30px;
+            width: 140px;
+            border: 1px solid #4d90fe;
+            border-radius: 2px;
+            font-weight: bold;
+        }
+
+        button:hover {
+            background-color: #428afd;
+        }
+
+        .flex-item {
+            margin: 5px;
+            justify-items: flex-end;
+        }
+
+        .flex-item1 {
+            margin: 5px;
+            justify-items: flex-end;
+            padding-left: 1270px;
+        }
+
+        #ahead {
+            color: rgb(36, 35, 35);
+            text-decoration: none;
+            font-size: 15px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+
+        #ahead:hover{
+            border-bottom: 1px solid rgb(36, 35, 35);
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="advcont">
+        <div>
+            <img src="Google_2015_logo.svg" alt="" id="advlogo" height="24px" width="74px">
+        </div>
+        <div class="flex-item1"> <a href="https://mail.google.com/mail/&ogbl" id="ahead">Gmail</a> </div>
+        <div class="flex-item"> <a href="images.html" id="ahead">Images</a> </div>
+        <div class="flex-item"> <a href="index.html" id="ahead">Google</a> </div>
+    </div>
+
+    <div class="advhead">
+        Advanced Search
+    </div>
+    <hr>
+
+    <div class="col1">
+        <div style="font-size: 16px; font-family: arial,sans-serif; padding-right: 60px;">Find pages with..</div>
+        <div style="width: 510px; height: 40px;"></div>
+        <strong style="padding-left: 30px; font-family: arial,sans-serif; font-size: 13px;">To do this in the search
+            box</strong>
+    </div>
+    <form action="https://www.google.com/search">
+        <div class="col2">
+            <div style="font-size: 13px; font-family: arial,sans-serif; padding-right: 99px; padding-top: 10px;">all
+                these
+                words:</div>
+            <input type="text" style="width: 510px; height: 29px;" name="as_q">
+            <div style="padding-left: 20px; font-family: arial,sans-serif; font-size: 13px;">
+                Type the important words:
+                <div style="font-family: monospace; font-size: 13px;">
+                    tri-colour rat terrier
+                </div>
+            </div>
+        </div>
+
+        <div class="col2">
+            <div style="font-size: 13px; font-family: arial,sans-serif; padding-right: 40px; padding-top: 10px;">this
+                exact
+                word or phrase:</div>
+            <input type="text" style="width: 510px; height: 29px;" name="as_epq">
+            <div style="padding-left: 20px; font-family: arial,sans-serif; font-size: 13px;">
+                Put exact words in quotes:
+                <div style="font-family: monospace; font-size: 13px;">
+                    "rat terrier"
+                </div>
+            </div>
+        </div>
+
+        <div class="col2">
+            <div style="font-size: 13px; font-family: arial,sans-serif; padding-right: 76px; padding-top: 10px;">any of
+                these words:</div>
+            <input type="text" style="width: 510px; height: 29px;" name="as_oq">
+            <div style="padding-left: 20px; font-family: arial,sans-serif; font-size: 13px;">
+                Type OR between all the words you want:
+                <div style="font-family: monospace; font-size: 13px;">
+                    miniature OR standard
+                </div>
+            </div>
+        </div>
+
+        <div class="col2">
+            <div style="font-size: 13px; font-family: arial,sans-serif; padding-right: 68px; padding-top: 10px;">none of
+                these words:</div>
+            <input type="text" style="width: 510px; height: 29px;" name="as_eq">
+            <div style="padding-left: 20px; font-family: arial,sans-serif; font-size: 13px;">
+                Put a minus sign just before words that you don't want:
+                <div style="font-family: monospace; font-size: 13px;">
+                    -rodent, -"Jack Russell"
+                </div>
+            </div>
+        </div>
+
+        <div class="col2" style="padding-top: 30px;">
+            <button>Advanced Search</button>
+        </div>
+
+    </form>
+
+</body>
+
+</html>
